@@ -18,9 +18,12 @@ namespace coinsApi.Controllers
     {
         //GET empty
         [HttpGet]
+
         public IActionResult GetAth()
         {
+            //test
             return Content("All time high. Value not found. Use /ath/<value>");
+
         }
 
         //GET ath by id
